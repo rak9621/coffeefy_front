@@ -1,7 +1,7 @@
 var baseUrl;
 
 
-  baseUrl = "http://localhost:5000/api/v1/";
+  baseUrl = "https://coffeefybackend.herokuapp.com/api/v1";
 
 console.log(baseUrl);
 

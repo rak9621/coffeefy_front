@@ -50,7 +50,7 @@ const Login = () => {
          localStorage.setItem("loginSignupStatus" , true )
          
 
-        window.location.pathname= '/home'
+        window.location.pathname= '/'
 
       }).catch((error) => {
           
