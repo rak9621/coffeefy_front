@@ -1,0 +1,13 @@
+.carousel-item {
+
+}
+.carousel-inner {
+  background-color: black;
+}
+
+@media (max-width: 480px) {
+  .carousel-item {
+    position: relative;
+    left: -40%;
+  }
+}

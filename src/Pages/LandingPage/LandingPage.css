@@ -1,0 +1,13 @@
+.carousel-item {
+  left: 28%;
+}
+.carousel-inner {
+  background-color: black;
+}
+
+@media (max-width: 480px) {
+.control{
+
+  margin-left: -30%;
+}
+}
