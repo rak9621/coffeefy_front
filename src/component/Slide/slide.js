@@ -37,7 +37,7 @@ const slide = () => {
             aria-label="Slide 3"
           ></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner cont">
           <div class="carousel-item active">
             <img
               src={slidePic1}

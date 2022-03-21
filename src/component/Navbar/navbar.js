@@ -41,8 +41,10 @@ const Navbar = () => {
           <span class="navbar-toggler-icon"></span>
         </button>
 
-
-         <NavLink to="/" class="navbar-brand" href="#"> Coffeeshop  </NavLink>
+        <a class="navbar-brand" href="/">
+      <img src="https://res.cloudinary.com/drpmtab2a/image/upload/c_scale,h_221,r_28/a_0/v1647862267/BevragesProduct%20image/1307710801_dqboxj.png" alt="" width="40" height="40" class="d-inline-block align-text-top"/>
+       <h2>Coffeefy </h2>
+    </a>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">

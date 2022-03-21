@@ -1,13 +1,16 @@
-.carousel-item {
 
-}
 .carousel-inner {
   background-color: black;
 }
+.carousel-inner img {
+  margin: auto;
+}
+
+
 
 @media (max-width: 480px) {
-  .carousel-item {
-    position: relative;
-    left: -40%;
+
+  .cont div img {
+    margin-left: -40%;
   }
 }

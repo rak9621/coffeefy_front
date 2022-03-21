@@ -110,7 +110,7 @@ const LandingPage = () => {
           <span class="visually-hidden">Next</span>
         </button>
         <div class="carousel-caption d-none d-md-block mb-5">
-    <h3>Welcome To Coffeefy</h3>
+    <h1>Welcome To Coffeefy</h1>
   </div>
       </div> 
     </>
