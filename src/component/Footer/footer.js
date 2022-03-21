@@ -23,23 +23,23 @@ const footer = () => {
             <ImFacebook class="mr-4 fa-4x icon" size={20} />
           </a>
 
-          <a class="mt-4" href="#">
+          <a class="mt-4" href="https://www.google.com/">
             <ImTwitter class="mr-5 icon" size={20} />{" "}
           </a>
 
-          <a class="mt-4" href="#">
+          <a class="mt-4" href="https://www.google.com/">
             <ImGoogle class="mr-5 icon" size={20} />{" "}
           </a>
 
-          <a class="mt-4" href="#">
+          <a class="mt-4" href="https://www.google.com/">
             <ImGithub class=" mr-5 icon" size={20} />
           </a>
 
-          <a class="mt-4" href="#">
+          <a class="mt-4" href="https://www.google.com/">
             <ImTelegram class=" mr-5 icon" size={20} />
           </a>
 
-          <a class="mt-4" href="#">
+          <a class="mt-4" href="https://www.google.com/">
             <ImLinkedin2 class="mr-3 icon" size={20} />
           </a>
         </div>

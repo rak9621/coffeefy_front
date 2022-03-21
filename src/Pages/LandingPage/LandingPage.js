@@ -13,6 +13,8 @@ const LandingPage = () => {
 
   return (
     <>
+
+    
    <div
         id="carouselExampleIndicators"
         class="carousel slide "
@@ -62,16 +64,16 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div class="carousel-inner" style={{marginBottom:"-1.5rem"}}>
+        <div class="carousel-inner " style={{marginBottom:"-1.5rem"}}>
           <div class="carousel-item active  control">
             <img
               src={slidePic4}
-              class="d-block img-fluid d-inline-flex justify-content-center  "
+              class="d-block img-fluid "
               alt="..."
             
             />
           </div>
-          <div class="carousel-item control" >
+          <div class="carousel-item control  " >
             <img
               src={slidePic5}
               class="d-block img-fluid"
@@ -79,7 +81,7 @@ const LandingPage = () => {
             
             />
           </div>
-          <div class="carousel-item control">
+          <div class="carousel-item  control">
             <img
               src={slidePic6}
               class="d-block img-fluid"
@@ -104,13 +106,13 @@ const LandingPage = () => {
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next"
         >
-
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
-     
-    
+        <div class="carousel-caption d-none d-md-block mb-5">
+    <h3>Welcome To Coffeefy</h3>
+  </div>
+      </div> 
     </>
   )
 }
