@@ -11,6 +11,6 @@
 @media (max-width: 480px) {
 
   .carousel-inner img {
-    margin-left: 10%;
+    margin-left: auto;
   }
 }
