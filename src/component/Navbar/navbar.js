@@ -2,6 +2,7 @@ import React ,{useContext} from "react";
 import { NavLink } from "react-router-dom";
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import CartContext from '../../Context/CartContext'
+import Mixpanel from "../../Services/mixpanel";
 
 const Navbar = () => {
 
@@ -42,6 +43,7 @@ const Navbar = () => {
         </button>
 
         <a class="navbar-brand" href="/">
+          {Mixpanel("home page reached" , "home")}
       <img src="https://res.cloudinary.com/drpmtab2a/image/upload/c_scale,h_221,r_28/a_0/v1647862267/BevragesProduct%20image/1307710801_dqboxj.png" alt="" width="40" height="40" class="d-inline-block align-text-top"/>
        <h2>Coffeefy </h2>
     </a>

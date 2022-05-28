@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import Swal from "sweetalert2";
+import Mixpanel from '../../Services/mixpanel'
 
 import ApiConstants from "../../Services/apiconstants";
 
@@ -17,6 +18,7 @@ export default function Signup() {
 
   } = useForm();
   const onSubmit = async (data) => {
+    Mixpanel("for signup" , data.email)
     await axios
       .post(ApiConstants.SIGNUP, {
         name: data.fullname,

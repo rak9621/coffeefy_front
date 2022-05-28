@@ -5,6 +5,7 @@ import Swal from "sweetalert2";
 import axios from "axios";
 import "./login.css";
 import { NavLink } from "react-router-dom";
+import Mixpanel from "../../Services/mixpanel"
 
 
 const Login = () => {
@@ -15,7 +16,8 @@ const Login = () => {
     handleSubmit,
   } = useForm();
   const onSubmit = (data) => {
-
+ 
+    Mixpanel("for login candidate" , data.email)
      axios.post(ApiConstants.LOGIN ,{
         email:data.email,
         password:data.password
