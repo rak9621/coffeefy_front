@@ -25,7 +25,7 @@ export default function AllRoutes() {
      
      {loginSignupStatus === false ? <Route exact path="/" element={ <LandingPage/>} /> :<Route exact path="/" element = {<Home/> } /> } 
 
-
+  
       {  loginSignupStatus &&<Route path='/' element={<Home/>} />}
   
         <Route exact path="/login" element={<Login />}/>

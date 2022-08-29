@@ -1,16 +1,28 @@
 
-.carousel-inner {
-  background-color: black;
+.carousel-inner > .carousel-item >img,
+.carousel-inner > .carousel-item>a>img{
+ 
+margin: auto;
+ height: 70vh;
+
 }
-.carousel-inner img {
-  margin: auto;
-}
+
 
 
 
 @media (max-width: 480px) {
 
-  .carousel-inner img {
-    margin-left: auto;
-  }
+
+  .carousel-inner > .carousel-item >img,
+.carousel-inner > .carousel-item>a>img{
+ 
+ height: 40vh;
+
+}
+
+.landingFoot{
+margin-top: 12rem ;
+bottom: 0;
+}
+  
 }

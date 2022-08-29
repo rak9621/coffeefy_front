@@ -10,7 +10,7 @@ const slide = () => {
   return (
     <>
     
-      <div
+      {/* <div
         id="carouselExampleIndicators"
         class="carousel slide h-50"
         data-bs-ride="carousel"
@@ -84,7 +84,7 @@ const slide = () => {
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+      </div> */}
      
     </>
   );

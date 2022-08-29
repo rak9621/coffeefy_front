@@ -17,7 +17,7 @@ const footer = () => {
 
   return (
     <>
-      <footer class="footer footer-bottom bg-dark py-0">
+      <footer class="footer bg-dark">
         <div class="d-flex justify-content-center mt-4">
           <a class="mt-4 " href="#">
             <ImFacebook class="mr-4 fa-4x icon" size={20} />

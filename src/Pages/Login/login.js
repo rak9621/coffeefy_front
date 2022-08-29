@@ -6,7 +6,7 @@ import axios from "axios";
 import "./login.css";
 import { NavLink } from "react-router-dom";
 import Mixpanel from "../../Services/mixpanel"
-
+import Footer from "../../component/Footer/footer";
 
 const Login = () => {
   // window.addEventListener("contextmenu", (e) => e.preventDefault());
@@ -123,6 +123,10 @@ const Login = () => {
           </div>
         </div>
       </div>
+      </div>
+          
+    <div className='landingFoot'>
+      <Footer/>
       </div>
    
     </>

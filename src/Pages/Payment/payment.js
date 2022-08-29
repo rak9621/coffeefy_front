@@ -9,9 +9,16 @@ const Payment = () => {
     <> 
 <div class='container'>
 
-  <div class="mt-5 d-flex justify-content-center">
+  {/* <div class="mt-5 d-flex justify-content-center">
     <a class="btn btn-primary  " href="https://rzp.io/l/XX6qSn08" role="button">Order Now</a>
-    </div>
+    </div> */}
+
+<div class="mt-5 d-flex justify-content-center">
+    <a class="btn btn-primary  " href="https://rzp.io/l/RWRSSGvbgv" role="button">Order Now</a>
+    </div> 
+
+
+    
 </div>
 
     </>
