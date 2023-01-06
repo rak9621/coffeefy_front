@@ -1,7 +1,7 @@
 var baseUrl;
 
 
-  baseUrl = "https://coffeefybackend.herokuapp.com/api/v1";
+  baseUrl = "https://neon-druid-2cc8fd.netlify.app/"
 
 console.log(baseUrl);
 
