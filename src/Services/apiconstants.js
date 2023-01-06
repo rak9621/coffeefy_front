@@ -1,7 +1,6 @@
 var baseUrl;
 
-
-  baseUrl = "https://neon-druid-2cc8fd.netlify.app"
+baseUrl = "https://coffefy-bakend.vercel.app/app/v1"
 
 console.log(baseUrl);
 
