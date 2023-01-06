@@ -1,7 +1,7 @@
 var baseUrl;
 
 
-  baseUrl = "https://neon-druid-2cc8fd.netlify.app/"
+  baseUrl = "https://neon-druid-2cc8fd.netlify.app"
 
 console.log(baseUrl);
 
